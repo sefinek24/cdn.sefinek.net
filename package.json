@@ -1,6 +1,6 @@
 {
   "name": "cdn.sefinek.net",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Official Content Delivery Network [CDN] created by Sefinek.",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,16 @@
     "usm": "git submodule update --remote",
     "mon": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/cdn.sefinek.net.git"
+  },
   "author": "Sefinek (https://sefinek.net)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sefinek24/cdn.sefinek.net/issues"
+  },
+  "homepage": "https://github.com/sefinek24/cdn.sefinek.net#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
