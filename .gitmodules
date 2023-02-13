@@ -1,7 +1,7 @@
-[submodule "Genshin-Impact-ReShade_Resources"]
+[submodule "data/Genshin-Impact-ReShade_Resources"]
 	path = data/Genshin-Impact-ReShade_Resources
 	url = https://github.com/sefinek24/Genshin-Impact-ReShade_Resources
 
-[submodule "PiHole-Blocklist-Collection"]
+[submodule "data/PiHole-Blocklist-Collection"]
 	path = data/PiHole-Blocklist-Collection
 	url = https://github.com/sefinek24/PiHole-Blocklist-Collection
