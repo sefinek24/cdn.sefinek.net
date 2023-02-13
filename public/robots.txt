@@ -1,0 +1,32 @@
+User-Agent: Googlebot
+Disallow: /screenshots/*
+
+User-Agent: Googlebot-Image
+Disallow: /screenshots/*
+
+User-Agent: MSNBot
+Disallow: /screenshots/*
+
+User-Agent: Slurp
+Disallow: /screenshots/*
+
+User-Agent: Lycos
+Disallow: /screenshots/*
+
+User-Agent: Seekbot
+Disallow: /screenshots/*
+
+User-Agent: Sistrix
+Disallow: /screenshots/*
+
+User-Agent: SearchmetricsBot
+Disallow: /screenshots/*
+
+User-Agent: BacklinkCrawler
+Disallow: /screenshots/*
+
+User-Agent: SEOkicks-Robot
+Disallow: /screenshots/*
+
+User-Agent: xovi
+Disallow: /screenshots/*
