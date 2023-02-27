@@ -61,13 +61,13 @@ app.get('/', (req, res) =>
 
 
 /* Resources for Genshin Impact ReShade Mod Pack */
-app.get('/resources/genshin-impact-reshade/launcher/download.exe', (req, res) => res.status(200).sendFile('/home/ubuntu/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/setup/Genshin Impact Mod Setup.exe'));
+app.get('/resources/genshin-impact-reshade/launcher/download.exe', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/setup/Genshin Impact Mod Setup.exe'));
 
-app.get('/resources/genshin-impact-reshade/reshade/config', (req, res) => res.status(200).sendFile('/home/ubuntu/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/reshade/ReShade.ini'));
-app.get('/resources/genshin-impact-reshade/reshade/log', (req, res) => res.status(200).sendFile('/home/ubuntu/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/reshade/ReShade.log'));
+app.get('/resources/genshin-impact-reshade/reshade/config', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/reshade/ReShade.ini'));
+app.get('/resources/genshin-impact-reshade/reshade/log', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/reshade/ReShade.log'));
 
 // FPS Unlocker
-app.get('/resources/genshin-impact-reshade/unlocker-config', (req, res) => res.status(200).sendFile('/home/ubuntu/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/unlocker.config.json'));
+app.get('/resources/genshin-impact-reshade/unlocker-config', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/unlocker.config.json'));
 
 
 
