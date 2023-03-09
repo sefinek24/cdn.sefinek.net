@@ -1,6 +1,6 @@
 {
   "name": "cdn.sefinek.net",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Official Content Delivery Network [CDN] created by Sefinek.",
   "main": "index.js",
   "scripts": {

@@ -43,24 +43,29 @@ app.get('/', (req, res) =>
 		version,
 		worker: process.pid,
 		contact: 'contact@sefinek.net',
-		data: {
-			domain: 'https://sefinek.net',
+		domain: {
+			main: 'https://sefinek.net',
 			api: 'https://api.sefinek.net',
 			cdn: 'https://cdn.sefinek.net',
-			ssl: true,
-			proxy: true,
 		},
-		paths: {
+		path: {
 			static: '/',
 			gitResources: '/resources',
 			images: '/images',
 			temp: '/temp',
 		},
+		other: {
+			ssl: true,
+			proxy: true,
+		}
 	}, null, 3)),
 );
 
 
-/* Resources for Genshin Impact ReShade Mod Pack */
+/* Resources for Genshin Impact Stella Mod v2 */
+app.use('/resources/v2/genshin-impact-reshade', express.static('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources'));
+
+/* Resources for Genshin Impact Stella Mod v1 */
 app.get('/resources/genshin-impact-reshade/launcher/download.exe', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/setup/Genshin Impact Mod Setup.exe'));
 
 app.get('/resources/genshin-impact-reshade/reshade/config', (req, res) => res.status(200).sendFile('/home/sefinek/node/www/cdn.sefinek.net/data/Genshin-Impact-ReShade_Resources/reshade/ReShade.ini'));
